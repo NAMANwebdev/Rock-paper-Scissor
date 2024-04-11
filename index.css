@@ -1,0 +1,147 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    background: beige;
+    
+}
+
+h1{
+
+    background:#14213d;
+    color: beige;
+    height: 90px;
+    text-align:center ;
+    line-height: 80px;
+    font-family: serif;
+
+}
+
+#box{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 60px;
+    
+}
+
+
+.img{
+
+    height: 140px;
+    object-fit: fill;
+
+}
+
+#scoreboard{
+
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 50px;
+
+}
+
+#user{
+
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+#computer{
+
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+p{
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+#message{
+
+   font-size: 30px;
+   
+   color: beige;
+   width: 20%;
+   align-content: center;
+   border-radius: 35px;
+   
+}
+#messagebox{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    height: 70px;
+    line-height: 70px;
+
+}
+
+.img:not(:hover) {
+    opacity: 0.5;
+
+}
+
+.img:hover{
+    cursor: pointer;
+}
+
+.newimg:not(:hover){
+    opacity: 0.5;
+}
+
+.newimg:hover{
+    cursor: pointer;
+}
+#reset{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 15px;
+}
+
+#resetbtn{
+
+    background: #14213d;
+    color: beige;
+    font-size: 25px;
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+#trybtn{
+
+background: #14213d;
+color: beige;
+font-size: 40px;
+padding: 15px;
+border: none;
+border-radius: 20px;
+cursor: pointer;
+
+}
+
+#topmessagebox{
+
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#topmessage{
+
+    display: inline;
+    font-size: 35px;
+
+
+}
